@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="global">
+    <h1>Library</h1>
+    <div class="header">
+    <div class="header_item" data-id="0">Books</div>
+    <div class="header_item" data-id="1">Visitors</div>
+    <div class="header_item" data-id="2">Cards</div>
+    <div class="header_item" data-id="3">Statistics</div>
+</div>
+<div class="main">
+  
+    <div class="main_item" data-id="0">
+        <div class="main_search">
+            <label for="">Sort by:
+             <select id="sort">
+                 <option value="2">Pages</option>
+                 <option value="3">Author</option>
+                 <option value="4">Name</option>
+             </select>
+            </label>
+            <button type="button" id="show_books">Показать все</button>
+             <div class="main_search_item">
+                 <input type="text" id="search" placeholder="Find books">
+                 <div class="hint hint_style"></div>
+             </div>
+             </div>
+             <div class="create_newBook">
+                 <button type="button" id="create_book">Создать новую книгу</button>
+             </div>
+      <div class="main_item_li">
+     <div class="id">ID</div>
+     <div class="id">Books</div>
+     <div class="id">Items</div>
+     <div class="id">Edit</div>
+      </div>
+        </div>
+    <div class="main_item" data-id="1">
+        <div class="main_search">
+            <label for="">Sort by:
+             <select id="sort_user">
+                <option value="1">Telefon</option>
+                <option value="2">Name</option>
+             </select>
+            </label>
+            <button type="button" id="show_users">Показать все</button>
+             <div class="main_search_item">
+                 <input type="text" id="search_users" placeholder="Find users">
+                 <div class="hint_users hint_style"></div>
+             </div>
+             </div>
+             <div class="create_newBook">
+                 <button type="button" id="create_user">Создать нового пользователя</button>
+             </div>
+      <div class="main_item_li">
+     <div class="id">ID</div>
+     <div class="id">Users</div>
+     <div class="id">Phone</div>
+     <div class="id">Edit</div>
+      </div>
+    </div>
+    <div class="main_item" data-id="2">
+        <div class="main_search">
+            <label for="">Sort by:
+             <select id="sort_card">
+                <option value="2">Visitor</option>
+                <option value="3">Book</option>
+                <option value="4">Date</option>
+             </select>
+            </label>
+            <button type="button" id="show_cards">Показать все</button>
+             <div class="main_search_item">
+                 <input type="text" id="search_cards" placeholder="Find cards">
+                 <div class="hint_cards hint_style"></div>
+             </div>
+             </div>
+             <div class="create_newBook">
+                 <button type="button" id="create_card">Создать новую карту</button>
+             </div>
+      <div class="main_item_li">
+     <div class="id">ID</div>
+     <div class="id">Visitors,Book</div>
+     <div class="id">Borrow Date</div>
+     <div class="id">Return Date</div>
+      </div>
+    </div>
+    <div class="main_item " data-id="3">
+        <div class="popular">
+            <div class="popular_books">Топ 5 книг нашей библиотеки</div>
+            <div class="popular_users">Топ 5 пользователей нашей библиотеки</div>
+        </div>
+       
+    </div>
+</div>
+</div>
+    <script src="script/examen.js"></script>
+</body>
+</html>

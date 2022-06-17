@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.global{
+    margin: 0 auto;
+    width: 1080px;
+}
+.header{
+display: flex;
+gap: 20px;
+background-color: gray;
+font-size: 20px;
+}
+.header_item{
+    padding: 10px;
+}
+.header_item:hover{
+    background-color: rgb(255, 234, 234);
+}
+.main_item{
+    display: none;
+}
+
+.main_item_li:hover{
+    background-color: rgb(230, 245, 164);
+    cursor: pointer;
+}
+.main_item_li{
+    display: flex;
+    gap: 80px;
+   padding: 10px;
+   align-items: center;
+  
+}
+.id{
+    width: 200px;
+    text-align: center;
+}
+.main{
+    position: relative;
+}
+.modal_window{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+    position:absolute;
+    right: 50%;
+    transform: translate(50%);
+    top: 50%;
+   background-color: rgb(148, 158, 125);
+}
+.main_search{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.create_newBook{
+display: flex;
+justify-content: end;
+padding: 20px;
+}
+.booklist_style:hover{
+background-color: bisque;
+cursor: pointer;
+}
+.userlist_text{
+    overflow: hidden;
+    height: 0;
+    transition: 0.8s;
+}
+.popular{
+    display: flex;
+    gap: 50px;
+}
+.close_btn{
+    position: absolute;
+    left: 90%;
+    padding: 5px;
+}
+.hinter{
+    padding: 5px;
+}
+.hinter:hover{
+background-color: bisque;
+cursor: pointer;
+}
+.hint_style{
+    position: absolute;
+    background-color: white;
+}
+.main_search_item{
+    position: relative;
+}
